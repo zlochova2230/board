@@ -22,13 +22,13 @@
   bell:
   - Krejčiřík Patrik, Markéta
   mailbox:
-  - Krejčiřík Patrik, Markéta
+  - Krejčiřík Patrik*, Markéta
 '1422':
   bell:
   - Garcia
   - RA8 GROUP s.r.o.
   mailbox:
-  - Garcia
+  - Garcia*
   - RA8 GROUP s.r.o.
 '1423':
   bell:
@@ -46,7 +46,7 @@
   - Klenková Jolana
 '1431':
   mailbox:
-  - Leskin Andrei, Olga
+  - Leskin Andrei*, Olga*
 '1432':
   bell:
   - Nguyen
@@ -59,10 +59,10 @@
   - Pavlyuk Volodymyr
 '1434':
   bell:
-  - Beneš Jan
+  - Beneš Jan Ing.
   - Benešová Tereza
   mailbox:
-  - Beneš Jan
+  - Beneš Jan Ing.*
   - Benešová Tereza
 '1435':
   mailbox:
@@ -79,7 +79,6 @@
   - Halašková Silvie
 '1443':
   mailbox:
-  - Uzan Amos Hay Shalom, Uzan Petra
 '1444':
   bell:
   - Pospíchalová Michaela
@@ -89,7 +88,7 @@
   bell:
   - Žilinský Petr, Zuzana
   mailbox:
-  - Žilinský Petr, Zuzana
+  - Žilinský Petr*, Zuzana*
 '1451':
   bell:
   - Najman Ondřej
@@ -99,9 +98,11 @@
   - Najmanová Darina
 '1452':
   bell:
-  - Kraft Martin
+  - Kříž Petr
+  - Křížová Markéta
   mailbox:
-  - Kraft Martin
+  - Kříž Petr
+  - Křížová Markéta
 '1453':
   bell:
   - Formela Andrej
@@ -127,7 +128,7 @@
   bell:
   - Smejkal Petr, Eva
   mailbox:
-  - Smejkal Petr, Eva
+  - Smejkal Petr*, Eva*
 '1463':
   mailbox:
 '1464':
@@ -142,13 +143,13 @@
   - Bláha Daniel
   - Kunayová Ivana
   mailbox:
-  - Bláha Daniel
+  - Bláha Daniel*
   - Kunayová Ivana
 '1472':
   bell:
   - Suk Michael, Michaela
   mailbox:
-  - Suk Michael, Michaela
+  - Suk Michael*, Michaela*
 '1473':
   mailbox:
   - Peer Gal
@@ -170,7 +171,6 @@
   - Suková Nikol
 '1483':
   mailbox:
-  - Bashan Doron, Anna
 '1484':
   bell:
   - Fričová Hana
@@ -183,7 +183,7 @@
   bell:
   - Vrtílkovi
   mailbox:
-  - Vrtílkovi
+  - Vrtílkovi*
 '1492':
   mailbox:
   - Dahari Sharvid
@@ -210,7 +210,7 @@
   bell:
   - Paleček Petr, Zuzana
   mailbox:
-  - Paleček Petr, Zuzana
+  - Paleček Petr*, Zuzana*
 '14111':
   bell:
   - Nedoma Richard, Taťána
@@ -218,7 +218,6 @@
   - Nedoma Richard, Taťána
 '14112':
   mailbox:
-  - Rahamim Shaul
 '14113':
   mailbox:
   - Sapir Yaron
@@ -239,7 +238,7 @@
   bell:
   - Balík Tomáš, Vladimíra
   mailbox:
-  - Balík Tomáš, Vladimíra
+  - Balík Tomáš*, Vladimíra*
 '14123':
   bell:
   - Štěpánek Petr
@@ -249,7 +248,7 @@
   - Sedláková Vlasta
 '14124':
   mailbox:
-  - Kovach Nateliia, Serhiy
+  - Kovář Samuel*, Natalija*
 '14131':
   bell:
   - Hartman Miloslav
@@ -266,10 +265,8 @@
   mailbox:
   - Bašta Lukáš
 '14134':
-  bell:
-  - Kovach Nateliia, Serhiy
   mailbox:
-  - Kovach Nateliia, Serhiy
+  - Kovář Samuel*, Natalija*
 '14141':
   bell:
   - Rees Petra
@@ -284,30 +281,27 @@
   bell:
   - Balla Luděk, Tereza
   mailbox:
-  - Balla Luděk, Tereza
+  - Balla Luděk*, Tereza
 '14144':
   bell:
   - Dubnický Marek, Žaneta
   mailbox:
-  - Dubnický Marek, Žaneta
+  - Dubnický Marek*, Žaneta*
 '14151':
   bell:
   - Sokolinskaia
   mailbox:
   - Sokolinskaia
 '14152':
-  bell:
-  - Kolb Daniel
   mailbox:
-  - Kolb Daniel
 '14153':
   bell:
   - Valošek Roman
   mailbox:
-  - Valošek Roman
-  - Komendová Lucie
+  - Valošek Roman*
+  - Komendová Lucie*
 '14154':
   bell:
   - Tomanovi
   mailbox:
-  - Tomanovi
+  - Tomanovi*

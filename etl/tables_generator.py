@@ -13,27 +13,53 @@ bells_mailboxes = {
 }
 
 blacklist_names = (
-    "SJ Balík Tomáš MUDr. a Balíková Vladimíra MUDr.",
-    "SJ Dubnický Marek a Dubnická Žaneta",
+    "SJ Balík Tomáš MUDr. a Balíková Vladimíra MUDr.*",
+    "SJ Dubnický Marek a Dubnická Žaneta*",
     "SJ Grubyy Mykhaylo a Gruba Nadiya",
     "SJ Kovář Samuel Mgr. a Kovářová Natalija Ivanivna",
-    "SJ Leskin Andrei a Leskina Olga",
+    "SJ Leskin Andrei a Leskina Olga*",
     "SJ Linh Lu Ngoc a Huong Nguyen Thi",
     "SJ Nedoma Richard Ing. a Nedomová Taťana",
-    "SJ Paleček Petr Ing. a Palečková Zuzana",
+    "SJ Paleček Petr Ing. a Palečková Zuzana*",
     "SJ Shelest Andrii a Shelest Inessa",
-    "SJ Suk Michael a Suková Michaela Mgr.",
-    "SJ Toman Jan JUDr. a Tomanová Alena JUDr.",
+    "SJ Suk Michael a Suková Michaela Mgr.*",
+    "SJ Toman Jan JUDr. a Tomanová Alena JUDr.*",
     "SJ Uzan Amos-Hay-Shalom  MBA a Uzan Petra",
     "SJ Vrtílek Jan a Vrtílková Michaela",
     "SJ Žilinský Petr a Žilinská Zuzana Ing.",
+    "MCP Rackovsky Betzalel Haim a Rackovsky Renana",
     "Šlapák František, Petra",
-    'Beneš Jan Ing.',
     'Ovečková Nikoleta Ing.',
     'Najmanová Darina',
-    'Smejkalová Eva',
-    'MCP Lavian Shahar a Lavian Gilat Alegria'
+    'Smejkalová Eva*',
+    'MCP Lavian Shahar a Lavian Gilat Alegria',
+    "Witzling Guy",
+    "Witzling Ron",
+    "Čahojová Alice",
+    "Segev Graicer Yakir",
+    "Rahamim Shaul",
+    "Peer Gal",
+    "Kolb Daniel",
+    "Klenková Jolana",
+    "García Marina*",
+    "Falťan Daniel Ing. arch.",
+    "Dahari Sharvid",
+    "Buch Eldad",
+    "Kraft Martin"
 )
+
+def add_better(a_set, an_item):
+    in_set = False
+    new_set = set()
+    for k, member in enumerate(a_set):
+        if an_item.replace("*","") == member.replace("*",""):
+            in_set = True
+            new_set.add(an_item if len(member) < len(an_item) else member)
+        else:
+            new_set.add(member)
+    if not in_set:
+        new_set.add(an_item)
+    return new_set
 
 if __name__ == "__main__":
     script_root = os.path.dirname(os.path.realpath(__file__))
@@ -50,15 +76,20 @@ if __name__ == "__main__":
                 for name in labels[apartman]["bell"]:
                     bells_mailboxes["bell"][name] = apartman
                     if name not in blacklist_names:
-                        bells_mailboxes["apartment"][apartman].add(name)
+                        bells_mailboxes["apartment"][apartman] = add_better(bells_mailboxes["apartment"][apartman], name)
             if key == "mailbox":
                 for name in labels[apartman]["mailbox"]:
                     if name not in blacklist_names:
                         bells_mailboxes["mailbox"][name] = apartman
-                        bells_mailboxes["apartment"][apartman].add(name)
+                        bells_mailboxes["apartment"][apartman] = add_better(bells_mailboxes["apartment"][apartman], name)
 
     with open(script_root+'/'+VLASTNICI_JSON_FILE, 'r', encoding='utf-8') as recent_file:
         vlastnici = json.load(recent_file)
+
+    for vlastnik in vlastnici:
+        if vlastnik["permanent_residence"]:
+            vlastnik["owner"] += "*"
+
     for vlastnik in vlastnici:
         if "owner" in vlastnik \
             and "door_label" in vlastnik \
@@ -80,7 +111,12 @@ if __name__ == "__main__":
             del bells_mailboxes["mailbox"][k]
             bells_mailboxes["apartment"][v].remove(k)
 
-    # join apartment names
+    for k in bells_mailboxes["mailbox"].keys():
+        for mailbox in bells_mailboxes["mailbox"]:
+            if k != mailbox and k in mailbox and mailbox.startswith(k):
+                to_remove += ({k:bells_mailboxes["mailbox"][k]}),
+
+    # join apartment names (with cleanup)
     for k, s in bells_mailboxes["apartment"].items():
         bells_mailboxes["apartment"][k] = "; ".join(s)
 

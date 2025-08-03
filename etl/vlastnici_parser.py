@@ -20,6 +20,8 @@ if __name__ == "__main__":
         katastr_pomer = None
         katastr_jednotky = []
         weight = 0
+        trvaly_pobyt = False
+        owner_count = 1
 
         td_right = tr.find("td", class_="right")
         if td_right:
@@ -30,6 +32,12 @@ if __name__ == "__main__":
         vlastnik_td = tr.find("td")
         if vlastnik_td:
             katastr_vlastnik = vlastnik_td.text.strip().split(",")[0].split("Jednotka: ")[0]
+            if "Zlochova" in vlastnik_td.text:
+                trvaly_pobyt = True
+            if katastr_vlastnik.startswith("SJ ") or katastr_vlastnik.startswith("MCP ") \
+                and " a " in katastr_vlastnik:
+                owner_count = 2
+
 
         for jednotka in tr.select("A"):
             katastr_jednotky.append(jednotka.text.strip())
@@ -40,7 +48,10 @@ if __name__ == "__main__":
         primarni_jednotka = katastr_jednotky[-1] if katastr_jednotky else "n/a"
         vlastnici.append({
             "owner": katastr_vlastnik,
+            "permanent_residence": trvaly_pobyt,
+            "owner_count": owner_count,
             "weight": weight,
+            "weight_per_owner": weight/owner_count,
             "katastr_pomer": katastr_pomer,
             "katastr_jednotky": katastr_jednotky,
             "primarni_jednotka": primarni_jednotka,
@@ -50,7 +61,12 @@ if __name__ == "__main__":
         for vlastnik in vlastnici:
             if vlastnik["katastr_pomer"]:
                 vlastnik["part"] = jmenovatel / int(vlastnik["katastr_pomer"][1]) * int(vlastnik["katastr_pomer"][0])
+                vlastnik["part_per_owner"] = vlastnik["part"]/vlastnik["owner_count"]
 
+    for apartment in vlastnici:
+        print (f"\t'{apartment["owner"]}',")
+    print (f"Počet záznamů: {len(vlastnici)}")
+    print (f"Počet jednatelů: {sum([apartment["owner_count"] for apartment in vlastnici])}")
     print (f"Kontrolní součet vah: {sum([vlastnik["weight"] for vlastnik in vlastnici])}")
     print (f"Kontrolní součet part: {int(sum([vlastnik["part"] for vlastnik in vlastnici if "part" in vlastnik]))} / {jmenovatel}")
 
