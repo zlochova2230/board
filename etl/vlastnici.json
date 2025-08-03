@@ -4,8 +4,11 @@
     "katastr_jednotky": [],
     "katastr_pomer": null,
     "owner": "<tr>\n<th>Vlastnické právo</th><th class=\"right\">Podíl</th>\n</tr>",
+    "owner_count": 1,
+    "permanent_residence": false,
     "primarni_jednotka": "n/a",
-    "weight": 0
+    "weight": 0,
+    "weight_per_owner": 0.0
   },
   {
     "door_label": "14122",
@@ -18,9 +21,13 @@
       "2644679"
     ],
     "owner": "SJ Balík Tomáš MUDr. a Balíková Vladimíra MUDr.",
+    "owner_count": 2,
     "part": 13325970.0,
+    "part_per_owner": 6662985.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/4122",
-    "weight": 0.01887185552575568
+    "weight": 0.01887185552575568,
+    "weight_per_owner": 0.00943592776287784
   },
   {
     "door_label": "14143",
@@ -33,9 +40,13 @@
       "3315161"
     ],
     "owner": "Balla Luděk",
+    "owner_count": 1,
     "part": 11675169.0,
+    "part_per_owner": 11675169.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/4143",
-    "weight": 0.01653403861833558
+    "weight": 0.01653403861833558,
+    "weight_per_owner": 0.01653403861833558
   },
   {
     "door_label": "14133",
@@ -48,9 +59,13 @@
       "3315161"
     ],
     "owner": "Bašta Lukáš",
+    "owner_count": 1,
     "part": 11675169.0,
+    "part_per_owner": 11675169.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4133",
-    "weight": 0.01653403861833558
+    "weight": 0.01653403861833558,
+    "weight_per_owner": 0.01653403861833558
   },
   {
     "door_label": "1421",
@@ -63,9 +78,13 @@
       "7934037"
     ],
     "owner": "Beck Markéta Ing. DiS.",
+    "owner_count": 1,
     "part": 6836624.0,
+    "part_per_owner": 6836624.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/421",
-    "weight": 0.009681830321688694
+    "weight": 0.009681830321688694,
+    "weight_per_owner": 0.009681830321688694
   },
   {
     "door_label": "1434",
@@ -78,9 +97,13 @@
       "2644679"
     ],
     "owner": "Beneš Jan Ing.",
+    "owner_count": 1,
     "part": 8586720.0,
+    "part_per_owner": 8586720.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/434",
-    "weight": 0.012160265952881237
+    "weight": 0.012160265952881237,
+    "weight_per_owner": 0.012160265952881237
   },
   {
     "door_label": "1413",
@@ -93,9 +116,13 @@
       "3315161"
     ],
     "owner": "Bísková Jaroslava",
+    "owner_count": 1,
     "part": 11352900.0,
+    "part_per_owner": 11352900.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/413",
-    "weight": 0.016077650527380118
+    "weight": 0.016077650527380118,
+    "weight_per_owner": 0.016077650527380118
   },
   {
     "door_label": "1471",
@@ -108,9 +135,13 @@
       "5289358"
     ],
     "owner": "Bláha Daniel",
+    "owner_count": 1,
     "part": 13164034.5,
+    "part_per_owner": 13164034.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/471",
-    "weight": 0.0186425271271107
+    "weight": 0.0186425271271107,
+    "weight_per_owner": 0.0186425271271107
   },
   {
     "door_label": "1485",
@@ -123,9 +154,13 @@
       "6630322"
     ],
     "owner": "Buch Eldad",
+    "owner_count": 1,
     "part": 8480914.5,
+    "part_per_owner": 8480914.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/485",
-    "weight": 0.012010427246218208
+    "weight": 0.012010427246218208,
+    "weight_per_owner": 0.012010427246218208
   },
   {
     "door_label": "14132",
@@ -138,9 +173,13 @@
       "5289358"
     ],
     "owner": "Čahojová Alice",
+    "owner_count": 1,
     "part": 8103316.5,
+    "part_per_owner": 8103316.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4132",
-    "weight": 0.011475683816448045
+    "weight": 0.011475683816448045,
+    "weight_per_owner": 0.011475683816448045
   },
   {
     "door_label": "14132",
@@ -153,9 +192,13 @@
       "5289358"
     ],
     "owner": "Čahojová Monika",
+    "owner_count": 1,
     "part": 8103316.5,
+    "part_per_owner": 8103316.5,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/4132",
-    "weight": 0.011475683816448045
+    "weight": 0.011475683816448045,
+    "weight_per_owner": 0.011475683816448045
   },
   {
     "door_label": "1492",
@@ -168,9 +211,13 @@
       "2644679"
     ],
     "owner": "Dahari Sharvid",
+    "owner_count": 1,
     "part": 11657754.0,
+    "part_per_owner": 11657754.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/492",
-    "weight": 0.016509375996103876
+    "weight": 0.016509375996103876,
+    "weight_per_owner": 0.016509375996103876
   },
   {
     "door_label": "14144",
@@ -183,9 +230,13 @@
       "6630322"
     ],
     "owner": "SJ Dubnický Marek a Dubnická Žaneta",
+    "owner_count": 2,
     "part": 10850539.5,
+    "part_per_owner": 5425269.75,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/4144",
-    "weight": 0.015366222032655428
+    "weight": 0.015366222032655428,
+    "weight_per_owner": 0.007683111016327714
   },
   {
     "door_label": "1454",
@@ -198,9 +249,13 @@
       "3315161"
     ],
     "owner": "Falťan Daniel Ing. arch.",
+    "owner_count": 1,
     "part": 8054382.0,
+    "part_per_owner": 8054382.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/454",
-    "weight": 0.011406384184659508
+    "weight": 0.011406384184659508,
+    "weight_per_owner": 0.011406384184659508
   },
   {
     "door_label": "14142",
@@ -214,9 +269,13 @@
       "5289358"
     ],
     "owner": "Flekač Lubomír",
+    "owner_count": 1,
     "part": 16727950.5,
+    "part_per_owner": 16727950.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4142",
-    "weight": 0.02368964248591228
+    "weight": 0.02368964248591228,
+    "weight_per_owner": 0.02368964248591228
   },
   {
     "door_label": "1453",
@@ -229,9 +288,13 @@
       "2644679"
     ],
     "owner": "Formela Andrej",
+    "owner_count": 1,
     "part": 7999053.0,
+    "part_per_owner": 7999053.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/453",
-    "weight": 0.011328028845844808
+    "weight": 0.011328028845844808,
+    "weight_per_owner": 0.011328028845844808
   },
   {
     "door_label": "1484",
@@ -244,9 +307,13 @@
       "2644679"
     ],
     "owner": "Fričová Hana JUDr.",
+    "owner_count": 1,
     "part": 8586720.0,
+    "part_per_owner": 8586720.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/484",
-    "weight": 0.012160265952881237
+    "weight": 0.012160265952881237,
+    "weight_per_owner": 0.012160265952881237
   },
   {
     "door_label": "14105",
@@ -259,9 +326,13 @@
       "5289358"
     ],
     "owner": "Gani Mayan  MBA",
+    "owner_count": 1,
     "part": 9013252.5,
+    "part_per_owner": 9013252.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4105",
-    "weight": 0.012764309014439939
+    "weight": 0.012764309014439939,
+    "weight_per_owner": 0.012764309014439939
   },
   {
     "door_label": "14151",
@@ -275,9 +346,13 @@
       "3315161"
     ],
     "owner": "García Marina",
+    "owner_count": 1,
     "part": 8452479.0,
+    "part_per_owner": 8452479.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/4151",
-    "weight": 0.011970157708780961
+    "weight": 0.011970157708780961,
+    "weight_per_owner": 0.011970157708780961
   },
   {
     "door_label": "1424",
@@ -290,9 +365,13 @@
       "6630322"
     ],
     "owner": "SJ Grubyy Mykhaylo a Gruba Nadiya",
+    "owner_count": 2,
     "part": 8006989.5,
+    "part_per_owner": 4003494.75,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/424",
-    "weight": 0.011339268288930764
+    "weight": 0.011339268288930764,
+    "weight_per_owner": 0.005669634144465382
   },
   {
     "door_label": "1442",
@@ -305,9 +384,13 @@
       "2644679"
     ],
     "owner": "Halašková Silvie",
+    "owner_count": 1,
     "part": 5828877.0,
+    "part_per_owner": 5828877.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/442",
-    "weight": 0.008254687998051938
+    "weight": 0.008254687998051938,
+    "weight_per_owner": 0.008254687998051938
   },
   {
     "door_label": "14131",
@@ -321,9 +404,13 @@
       "6630322"
     ],
     "owner": "Hartman Miloslav Mgr. MBA",
+    "owner_count": 1,
     "part": 10810282.5,
+    "part_per_owner": 10810282.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4131",
-    "weight": 0.015309211226845393
+    "weight": 0.015309211226845393,
+    "weight_per_owner": 0.015309211226845393
   },
   {
     "door_label": "D200",
@@ -336,9 +423,13 @@
       "235376431"
     ],
     "owner": "Horizon Modřany s.r.o.",
+    "owner_count": 1,
     "part": 2614494.0,
+    "part_per_owner": 2614494.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/200",
-    "weight": 0.003702571223029548
+    "weight": 0.003702571223029548,
+    "weight_per_owner": 0.003702571223029548
   },
   {
     "door_label": "14101",
@@ -351,9 +442,13 @@
       "6630322"
     ],
     "owner": "Hrazdíra Adam Ing.",
+    "owner_count": 1,
     "part": 9751033.5,
+    "part_per_owner": 9751033.5,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/4101",
-    "weight": 0.013809133251748557
+    "weight": 0.013809133251748557,
+    "weight_per_owner": 0.013809133251748557
   },
   {
     "door_label": "1425",
@@ -366,9 +461,13 @@
       "3315161"
     ],
     "owner": "Klenková Jolana",
+    "owner_count": 1,
     "part": 8471436.0,
+    "part_per_owner": 8471436.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/425",
-    "weight": 0.011997004067072459
+    "weight": 0.011997004067072459,
+    "weight_per_owner": 0.011997004067072459
   },
   {
     "door_label": "14103",
@@ -381,9 +480,13 @@
       "3315161"
     ],
     "owner": "Kohoutová Tereza",
+    "owner_count": 1,
     "part": 7466715.0,
+    "part_per_owner": 7466715.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/4103",
-    "weight": 0.010574147077623077
+    "weight": 0.010574147077623077,
+    "weight_per_owner": 0.010574147077623077
   },
   {
     "door_label": "14152",
@@ -396,9 +499,13 @@
       "3315161"
     ],
     "owner": "Kolb Daniel",
+    "owner_count": 1,
     "part": 15141957.0,
+    "part_per_owner": 15141957.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4152",
-    "weight": 0.021443604096452632
+    "weight": 0.021443604096452632,
+    "weight_per_owner": 0.021443604096452632
   },
   {
     "door_label": "14153",
@@ -412,9 +519,13 @@
       "13260644"
     ],
     "owner": "Komendová Lucie",
+    "owner_count": 1,
     "part": 6022415.25,
+    "part_per_owner": 6022415.25,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4153",
-    "weight": 0.008528771302509893
+    "weight": 0.008528771302509893,
+    "weight_per_owner": 0.008528771302509893
   },
   {
     "door_label": "1481",
@@ -427,9 +538,13 @@
       "5289358"
     ],
     "owner": "Korbelář Jakub",
+    "owner_count": 1,
     "part": 10283371.5,
+    "part_per_owner": 10283371.5,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/481",
-    "weight": 0.014563015019970288
+    "weight": 0.014563015019970288,
+    "weight_per_owner": 0.014563015019970288
   },
   {
     "door_label": "14134",
@@ -443,9 +558,13 @@
       "3315161"
     ],
     "owner": "SJ Kovář Samuel Mgr. a Kovářová Natalija Ivanivna",
+    "owner_count": 2,
     "part": 21701079.0,
+    "part_per_owner": 10850539.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4134",
-    "weight": 0.030732444065310855
+    "weight": 0.030732444065310855,
+    "weight_per_owner": 0.015366222032655428
   },
   {
     "door_label": "1452",
@@ -458,9 +577,13 @@
       "2644679"
     ],
     "owner": "Kraft Martin",
+    "owner_count": 1,
     "part": 14538417.0,
+    "part_per_owner": 14538417.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/452",
-    "weight": 0.020588888103244288
+    "weight": 0.020588888103244288,
+    "weight_per_owner": 0.020588888103244288
   },
   {
     "door_label": "14115",
@@ -473,9 +596,13 @@
       "6630322"
     ],
     "owner": "Kratochvíl Jiří",
+    "owner_count": 1,
     "part": 8480914.5,
+    "part_per_owner": 8480914.5,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/4115",
-    "weight": 0.012010427246218208
+    "weight": 0.012010427246218208,
+    "weight_per_owner": 0.012010427246218208
   },
   {
     "door_label": "1421",
@@ -488,9 +615,13 @@
       "7934037"
     ],
     "owner": "Krejčiřík Patrik",
+    "owner_count": 1,
     "part": 3418312.0,
+    "part_per_owner": 3418312.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/421",
-    "weight": 0.004840915160844347
+    "weight": 0.004840915160844347,
+    "weight_per_owner": 0.004840915160844347
   },
   {
     "door_label": "D200",
@@ -502,9 +633,13 @@
       "2644679"
     ],
     "owner": "Kubeš Pavel",
+    "owner_count": 1,
     "part": 2880663.0,
+    "part_per_owner": 2880663.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/200",
-    "weight": 0.004079512107140413
+    "weight": 0.004079512107140413,
+    "weight_per_owner": 0.004079512107140413
   },
   {
     "door_label": "1432",
@@ -517,9 +652,13 @@
       "3315161"
     ],
     "owner": "Lai Nguyen Thi",
+    "owner_count": 1,
     "part": 5562708.0,
+    "part_per_owner": 5562708.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/432",
-    "weight": 0.007877747113941073
+    "weight": 0.007877747113941073,
+    "weight_per_owner": 0.007877747113941073
   },
   {
     "door_label": "1464",
@@ -532,9 +671,13 @@
       "2644679"
     ],
     "owner": "MCP Lavian Shahar a Lavian Gilat Alegria",
+    "owner_count": 2,
     "part": 8586720.0,
+    "part_per_owner": 4293360.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/464",
-    "weight": 0.012160265952881237
+    "weight": 0.012160265952881237,
+    "weight_per_owner": 0.006080132976440619
   },
   {
     "door_label": "1431",
@@ -547,9 +690,13 @@
       "5289358"
     ],
     "owner": "SJ Leskin Andrei a Leskina Olga",
+    "owner_count": 2,
     "part": 10283371.5,
+    "part_per_owner": 5141685.75,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/431",
-    "weight": 0.014563015019970288
+    "weight": 0.014563015019970288,
+    "weight_per_owner": 0.007281507509985144
   },
   {
     "door_label": "1432",
@@ -562,9 +709,13 @@
       "3315161"
     ],
     "owner": "SJ Linh Lu Ngoc a Huong Nguyen Thi",
+    "owner_count": 2,
     "part": 5562708.0,
+    "part_per_owner": 2781354.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/432",
-    "weight": 0.007877747113941073
+    "weight": 0.007877747113941073,
+    "weight_per_owner": 0.003938873556970536
   },
   {
     "door_label": "1414",
@@ -577,9 +728,13 @@
       "6630322"
     ],
     "owner": "Lišková Arnošta Mgr.",
+    "owner_count": 1,
     "part": 6509386.5,
+    "part_per_owner": 6509386.5,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/414",
-    "weight": 0.009218405983902441
+    "weight": 0.009218405983902441,
+    "weight_per_owner": 0.009218405983902441
   },
   {
     "door_label": "14102",
@@ -592,9 +747,13 @@
       "2644679"
     ],
     "owner": "Manzura Shalom",
+    "owner_count": 1,
     "part": 11657754.0,
+    "part_per_owner": 11657754.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4102",
-    "weight": 0.016509375996103876
+    "weight": 0.016509375996103876,
+    "weight_per_owner": 0.016509375996103876
   },
   {
     "door_label": "1483",
@@ -607,9 +766,13 @@
       "13260644"
     ],
     "owner": "Misařová Kristýna",
+    "owner_count": 1,
     "part": 5600036.25,
+    "part_per_owner": 5600036.25,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/483",
-    "weight": 0.007930610308217309
+    "weight": 0.007930610308217309,
+    "weight_per_owner": 0.007930610308217309
   },
   {
     "door_label": "1442",
@@ -622,9 +785,13 @@
       "2644679"
     ],
     "owner": "Musil Michal",
+    "owner_count": 1,
     "part": 5828877.0,
+    "part_per_owner": 5828877.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/442",
-    "weight": 0.008254687998051938
+    "weight": 0.008254687998051938,
+    "weight_per_owner": 0.008254687998051938
   },
   {
     "door_label": "1451",
@@ -637,9 +804,13 @@
       "13260644"
     ],
     "owner": "Najman Ondřej",
+    "owner_count": 1,
     "part": 4875516.75,
+    "part_per_owner": 4875516.75,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/451",
-    "weight": 0.006904566625874279
+    "weight": 0.006904566625874279,
+    "weight_per_owner": 0.006904566625874279
   },
   {
     "door_label": "1451",
@@ -652,9 +823,13 @@
       "13260644"
     ],
     "owner": "Najmanová Darina",
+    "owner_count": 1,
     "part": 4875516.75,
+    "part_per_owner": 4875516.75,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/451",
-    "weight": 0.006904566625874279
+    "weight": 0.006904566625874279,
+    "weight_per_owner": 0.006904566625874279
   },
   {
     "door_label": "14111",
@@ -667,9 +842,13 @@
       "6630322"
     ],
     "owner": "SJ Nedoma Richard Ing. a Nedomová Taťana",
+    "owner_count": 2,
     "part": 9751033.5,
+    "part_per_owner": 4875516.75,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4111",
-    "weight": 0.013809133251748557
+    "weight": 0.013809133251748557,
+    "weight_per_owner": 0.006904566625874279
   },
   {
     "door_label": "1441",
@@ -682,9 +861,13 @@
       "6630322"
     ],
     "owner": "Ovečková Nikoleta Ing.",
+    "owner_count": 1,
     "part": 9751033.5,
+    "part_per_owner": 9751033.5,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/441",
-    "weight": 0.013809133251748557
+    "weight": 0.013809133251748557,
+    "weight_per_owner": 0.013809133251748557
   },
   {
     "door_label": "14104",
@@ -697,9 +880,13 @@
       "3315161"
     ],
     "owner": "SJ Paleček Petr Ing. a Palečková Zuzana",
+    "owner_count": 2,
     "part": 8054382.0,
+    "part_per_owner": 4027191.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/4104",
-    "weight": 0.011406384184659508
+    "weight": 0.011406384184659508,
+    "weight_per_owner": 0.005703192092329754
   },
   {
     "door_label": "1433",
@@ -712,9 +899,13 @@
       "3315161"
     ],
     "owner": "Pavlyuk Volodymyr",
+    "owner_count": 1,
     "part": 7466715.0,
+    "part_per_owner": 7466715.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/433",
-    "weight": 0.010574147077623077
+    "weight": 0.010574147077623077,
+    "weight_per_owner": 0.010574147077623077
   },
   {
     "door_label": "1473",
@@ -727,9 +918,13 @@
       "3315161"
     ],
     "owner": "Peer Gal",
+    "owner_count": 1,
     "part": 7466715.0,
+    "part_per_owner": 7466715.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/473",
-    "weight": 0.010574147077623077
+    "weight": 0.010574147077623077,
+    "weight_per_owner": 0.010574147077623077
   },
   {
     "door_label": "14114",
@@ -742,9 +937,13 @@
       "3315161"
     ],
     "owner": "Plüss Martina",
+    "owner_count": 1,
     "part": 8054382.0,
+    "part_per_owner": 8054382.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4114",
-    "weight": 0.011406384184659508
+    "weight": 0.011406384184659508,
+    "weight_per_owner": 0.011406384184659508
   },
   {
     "door_label": "1444",
@@ -757,9 +956,13 @@
       "3315161"
     ],
     "owner": "Pospíchalová Michaela",
+    "owner_count": 1,
     "part": 8054382.0,
+    "part_per_owner": 8054382.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/444",
-    "weight": 0.011406384184659508
+    "weight": 0.011406384184659508,
+    "weight_per_owner": 0.011406384184659508
   },
   {
     "door_label": "1423",
@@ -772,9 +975,13 @@
       "5289358"
     ],
     "owner": "MCP Rackovsky Betzalel Haim a Rackovsky Renana",
+    "owner_count": 2,
     "part": 7970617.5,
+    "part_per_owner": 3985308.75,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/423",
-    "weight": 0.011287759308407561
+    "weight": 0.011287759308407561,
+    "weight_per_owner": 0.005643879654203781
   },
   {
     "door_label": "14112",
@@ -788,9 +995,13 @@
       "3315161"
     ],
     "owner": "Rahamim Shaul",
+    "owner_count": 1,
     "part": 19179798.0,
+    "part_per_owner": 19179798.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4112",
-    "weight": 0.027161878412541654
+    "weight": 0.027161878412541654,
+    "weight_per_owner": 0.027161878412541654
   },
   {
     "door_label": "1422",
@@ -802,9 +1013,13 @@
       "74498"
     ],
     "owner": "RA8 GROUP s.r.o.",
+    "owner_count": 1,
     "part": 8748655.5,
+    "part_per_owner": 8748655.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/422",
-    "weight": 0.012389594351526215
+    "weight": 0.012389594351526215,
+    "weight_per_owner": 0.012389594351526215
   },
   {
     "door_label": "14141",
@@ -817,9 +1032,13 @@
       "6630322"
     ],
     "owner": "Rees Petra",
+    "owner_count": 1,
     "part": 10412185.5,
+    "part_per_owner": 10412185.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4141",
-    "weight": 0.01474543770272394
+    "weight": 0.01474543770272394,
+    "weight_per_owner": 0.01474543770272394
   },
   {
     "door_label": "14113",
@@ -834,9 +1053,13 @@
       "3315161"
     ],
     "owner": "Sapir Yaron  Ph.D.",
+    "owner_count": 1,
     "part": 15236742.0,
+    "part_per_owner": 15236742.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4113",
-    "weight": 0.02157783588791012
+    "weight": 0.02157783588791012,
+    "weight_per_owner": 0.02157783588791012
   },
   {
     "door_label": "1463",
@@ -849,9 +1072,13 @@
       "2644679"
     ],
     "owner": "Sarmant Anastasiya",
+    "owner_count": 1,
     "part": 7999053.0,
+    "part_per_owner": 7999053.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/463",
-    "weight": 0.011328028845844808
+    "weight": 0.011328028845844808,
+    "weight_per_owner": 0.011328028845844808
   },
   {
     "door_label": "1411",
@@ -864,9 +1091,13 @@
       "5289358"
     ],
     "owner": "Schön David Ing.",
+    "owner_count": 1,
     "part": 10150672.5,
+    "part_per_owner": 10150672.5,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/411",
-    "weight": 0.014375090511929802
+    "weight": 0.014375090511929802,
+    "weight_per_owner": 0.014375090511929802
   },
   {
     "door_label": "14123",
@@ -880,9 +1111,13 @@
       "706129293"
     ],
     "owner": "Sedláková Vlasta Bc.",
+    "owner_count": 1,
     "part": 4851944.0,
+    "part_per_owner": 4851944.0,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4123",
-    "weight": 0.006871183575158664
+    "weight": 0.006871183575158664,
+    "weight_per_owner": 0.006871183575158664
   },
   {
     "door_label": "1455",
@@ -895,9 +1130,13 @@
       "5289358"
     ],
     "owner": "Segev Graicer Yakir",
+    "owner_count": 1,
     "part": 9013252.5,
+    "part_per_owner": 9013252.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/455",
-    "weight": 0.012764309014439939
+    "weight": 0.012764309014439939,
+    "weight_per_owner": 0.012764309014439939
   },
   {
     "door_label": "1465",
@@ -910,9 +1149,13 @@
       "6630322"
     ],
     "owner": "Semanová Simona",
+    "owner_count": 1,
     "part": 8480914.5,
+    "part_per_owner": 8480914.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/465",
-    "weight": 0.012010427246218208
+    "weight": 0.012010427246218208,
+    "weight_per_owner": 0.012010427246218208
   },
   {
     "door_label": "1495",
@@ -925,9 +1168,13 @@
       "5289358"
     ],
     "owner": "SJ Shelest Andrii a Shelest Inessa",
+    "owner_count": 2,
     "part": 9013252.5,
+    "part_per_owner": 4506626.25,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/495",
-    "weight": 0.012764309014439939
+    "weight": 0.012764309014439939,
+    "weight_per_owner": 0.006382154507219969
   },
   {
     "door_label": "1462",
@@ -941,9 +1188,13 @@
       "5289358"
     ],
     "owner": "Smejkal Petr",
+    "owner_count": 1,
     "part": 6103753.5,
+    "part_per_owner": 6103753.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/462",
-    "weight": 0.008643960193278654
+    "weight": 0.008643960193278654,
+    "weight_per_owner": 0.008643960193278654
   },
   {
     "door_label": "1462",
@@ -957,9 +1208,13 @@
       "5289358"
     ],
     "owner": "Smejkalová Eva",
+    "owner_count": 1,
     "part": 6103753.5,
+    "part_per_owner": 6103753.5,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/462",
-    "weight": 0.008643960193278654
+    "weight": 0.008643960193278654,
+    "weight_per_owner": 0.008643960193278654
   },
   {
     "door_label": "D236",
@@ -972,9 +1227,13 @@
       "5289358"
     ],
     "owner": "SOUL PRODUCTIONS s.r.o.",
+    "owner_count": 1,
     "part": 6055159.5,
+    "part_per_owner": 6055159.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/236",
-    "weight": 0.00857514276779904
+    "weight": 0.00857514276779904,
+    "weight_per_owner": 0.00857514276779904
   },
   {
     "door_label": "1472",
@@ -987,9 +1246,13 @@
       "2644679"
     ],
     "owner": "SJ Suk Michael a Suková Michaela Mgr.",
+    "owner_count": 2,
     "part": 11657754.0,
+    "part_per_owner": 5828877.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/472",
-    "weight": 0.016509375996103876
+    "weight": 0.016509375996103876,
+    "weight_per_owner": 0.008254687998051938
   },
   {
     "door_label": "1482",
@@ -1002,9 +1265,13 @@
       "2644679"
     ],
     "owner": "Suková Nikol",
+    "owner_count": 1,
     "part": 11657754.0,
+    "part_per_owner": 11657754.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/482",
-    "weight": 0.016509375996103876
+    "weight": 0.016509375996103876,
+    "weight_per_owner": 0.016509375996103876
   },
   {
     "door_label": "1461",
@@ -1017,9 +1284,13 @@
       "10578716"
     ],
     "owner": "Šlapák František Ing.",
+    "owner_count": 1,
     "part": 5141685.75,
+    "part_per_owner": 5141685.75,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/461",
-    "weight": 0.007281507509985144
+    "weight": 0.007281507509985144,
+    "weight_per_owner": 0.007281507509985144
   },
   {
     "door_label": "1461",
@@ -1032,9 +1303,13 @@
       "10578716"
     ],
     "owner": "Šlapáková Tuháčková Petra Mgr.",
+    "owner_count": 1,
     "part": 5141685.75,
+    "part_per_owner": 5141685.75,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/461",
-    "weight": 0.007281507509985144
+    "weight": 0.007281507509985144,
+    "weight_per_owner": 0.007281507509985144
   },
   {
     "door_label": "14123",
@@ -1048,9 +1323,13 @@
       "706129293"
     ],
     "owner": "Štěpánek Petr Ing.",
+    "owner_count": 1,
     "part": 9703888.0,
+    "part_per_owner": 9703888.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/4123",
-    "weight": 0.013742367150317328
+    "weight": 0.013742367150317328,
+    "weight_per_owner": 0.013742367150317328
   },
   {
     "door_label": "14154",
@@ -1063,9 +1342,13 @@
       "6630322"
     ],
     "owner": "SJ Toman Jan JUDr. a Tomanová Alena JUDr.",
+    "owner_count": 2,
     "part": 10850539.5,
+    "part_per_owner": 5425269.75,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/4154",
-    "weight": 0.015366222032655428
+    "weight": 0.015366222032655428,
+    "weight_per_owner": 0.007683111016327714
   },
   {
     "door_label": "1443",
@@ -1078,9 +1361,13 @@
       "3315161"
     ],
     "owner": "SJ Uzan Amos-Hay-Shalom  MBA a Uzan Petra",
+    "owner_count": 2,
     "part": 7466715.0,
+    "part_per_owner": 3733357.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/443",
-    "weight": 0.010574147077623077
+    "weight": 0.010574147077623077,
+    "weight_per_owner": 0.0052870735388115386
   },
   {
     "door_label": "14121",
@@ -1093,9 +1380,13 @@
       "6630322"
     ],
     "owner": "V Coast s.r.o.",
+    "owner_count": 1,
     "part": 8063860.5,
+    "part_per_owner": 8063860.5,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/4121",
-    "weight": 0.011419807363805257
+    "weight": 0.011419807363805257,
+    "weight_per_owner": 0.011419807363805257
   },
   {
     "door_label": "14153",
@@ -1109,9 +1400,13 @@
       "13260644"
     ],
     "owner": "Valošek Roman",
+    "owner_count": 1,
     "part": 6022415.25,
+    "part_per_owner": 6022415.25,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/4153",
-    "weight": 0.008528771302509893
+    "weight": 0.008528771302509893,
+    "weight_per_owner": 0.008528771302509893
   },
   {
     "door_label": "1483",
@@ -1124,9 +1419,13 @@
       "13260644"
     ],
     "owner": "Vanek Martin",
+    "owner_count": 1,
     "part": 1866678.75,
+    "part_per_owner": 1866678.75,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/483",
-    "weight": 0.0026435367694057693
+    "weight": 0.0026435367694057693,
+    "weight_per_owner": 0.0026435367694057693
   },
   {
     "door_label": "1412",
@@ -1139,9 +1438,13 @@
       "5289358"
     ],
     "owner": "Vejrych Adam Ing.",
+    "owner_count": 1,
     "part": 11515576.5,
+    "part_per_owner": 11515576.5,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/412",
-    "weight": 0.01630802830891764
+    "weight": 0.01630802830891764,
+    "weight_per_owner": 0.01630802830891764
   },
   {
     "door_label": "1474",
@@ -1155,9 +1458,13 @@
       "3315161"
     ],
     "owner": "Vondráček Michal Ing.",
+    "owner_count": 1,
     "part": 8338737.0,
+    "part_per_owner": 8338737.0,
+    "permanent_residence": true,
     "primarni_jednotka": "2230/474",
-    "weight": 0.011809079559031975
+    "weight": 0.011809079559031975,
+    "weight_per_owner": 0.011809079559031975
   },
   {
     "door_label": "1491",
@@ -1169,9 +1476,13 @@
       "74498"
     ],
     "owner": "SJ Vrtílek Jan a Vrtílková Michaela",
+    "owner_count": 2,
     "part": 7402708.5,
+    "part_per_owner": 3701354.25,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/491",
-    "weight": 0.010483502912829875
+    "weight": 0.010483502912829875,
+    "weight_per_owner": 0.005241751456414937
   },
   {
     "door_label": "1435",
@@ -1184,9 +1495,13 @@
       "6630322"
     ],
     "owner": "Witzling Guy",
+    "owner_count": 1,
     "part": 8480914.5,
+    "part_per_owner": 8480914.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/435",
-    "weight": 0.012010427246218208
+    "weight": 0.012010427246218208,
+    "weight_per_owner": 0.012010427246218208
   },
   {
     "door_label": "1475",
@@ -1199,9 +1514,13 @@
       "6630322"
     ],
     "owner": "Witzling Ron",
+    "owner_count": 1,
     "part": 8480914.5,
+    "part_per_owner": 8480914.5,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/475",
-    "weight": 0.012010427246218208
+    "weight": 0.012010427246218208,
+    "weight_per_owner": 0.012010427246218208
   },
   {
     "door_label": "1445",
@@ -1214,8 +1533,12 @@
       "5289358"
     ],
     "owner": "SJ Žilinský Petr a Žilinská Zuzana Ing.",
+    "owner_count": 2,
     "part": 9013252.5,
+    "part_per_owner": 4506626.25,
+    "permanent_residence": false,
     "primarni_jednotka": "2230/445",
-    "weight": 0.012764309014439939
+    "weight": 0.012764309014439939,
+    "weight_per_owner": 0.006382154507219969
   }
 ]
