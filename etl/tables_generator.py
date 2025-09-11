@@ -44,8 +44,7 @@ blacklist_names = (
     "García Marina*",
     "Falťan Daniel Ing. arch.",
     "Dahari Sharvid",
-    "Buch Eldad",
-    "Kraft Martin"
+    "Buch Eldad"
 )
 
 def add_better(a_set, an_item):

@@ -2,7 +2,7 @@ import os
 import json
 from bs4 import BeautifulSoup # module: beautifulsoup4-4.13.4
 
-VLASTNICI_HTML_FILE = "vlastnici-2025-07-28.html"
+VLASTNICI_HTML_FILE = "vlastnici-2025-09-11.html"
 OUTPUT_JSON_FILE = 'vlastnici.json'
 
 if __name__ == "__main__":

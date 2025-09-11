@@ -87,6 +87,25 @@
     "weight_per_owner": 0.009681830321688694
   },
   {
+    "door_label": "14105",
+    "katastr_jednotky": [
+      "2230/200",
+      "2230/4105"
+    ],
+    "katastr_pomer": [
+      "67515",
+      "5289358"
+    ],
+    "owner": "SJ Bejček Jan Ing. MBA a Bejčková Miroslava Ing.",
+    "owner_count": 2,
+    "part": 9013252.5,
+    "part_per_owner": 4506626.25,
+    "permanent_residence": false,
+    "primarni_jednotka": "2230/4105",
+    "weight": 0.012764309014439939,
+    "weight_per_owner": 0.006382154507219969
+  },
+  {
     "door_label": "1434",
     "katastr_jednotky": [
       "2230/200",
@@ -314,25 +333,6 @@
     "primarni_jednotka": "2230/484",
     "weight": 0.012160265952881237,
     "weight_per_owner": 0.012160265952881237
-  },
-  {
-    "door_label": "14105",
-    "katastr_jednotky": [
-      "2230/200",
-      "2230/4105"
-    ],
-    "katastr_pomer": [
-      "67515",
-      "5289358"
-    ],
-    "owner": "Gani Mayan  MBA",
-    "owner_count": 1,
-    "part": 9013252.5,
-    "part_per_owner": 9013252.5,
-    "permanent_residence": false,
-    "primarni_jednotka": "2230/4105",
-    "weight": 0.012764309014439939,
-    "weight_per_owner": 0.012764309014439939
   },
   {
     "door_label": "14151",
