@@ -13,6 +13,20 @@ bells_mailboxes = {
 }
 
 blacklist_names = (
+    "Buch Eldad",
+    "Čahojová Alice",
+    "Dahari Sharvid",
+    "Falťan Daniel Ing. arch.",
+    "García Marina*",
+    "Klenková Jolana",
+    "Kolb Daniel",
+    "MCP Lavian Shahar a Lavian Gilat Alegria",
+    "MCP Rackovsky Betzalel Haim a Rackovsky Renana",
+    "Najmanová Darina",
+    "Ovečková Nikoleta Ing.",
+    "Peer Gal",
+    "Rahamim Shaul",
+    "Segev Graicer Yakir",
     "SJ Balík Tomáš MUDr. a Balíková Vladimíra MUDr.*",
     "SJ Dubnický Marek a Dubnická Žaneta*",
     "SJ Grubyy Mykhaylo a Gruba Nadiya",
@@ -27,24 +41,12 @@ blacklist_names = (
     "SJ Uzan Amos-Hay-Shalom  MBA a Uzan Petra",
     "SJ Vrtílek Jan a Vrtílková Michaela",
     "SJ Žilinský Petr a Žilinská Zuzana Ing.",
-    "MCP Rackovsky Betzalel Haim a Rackovsky Renana",
+    "Smejkalová Eva*",
     "Šlapák František, Petra",
-    'Ovečková Nikoleta Ing.',
-    'Najmanová Darina',
-    'Smejkalová Eva*',
-    'MCP Lavian Shahar a Lavian Gilat Alegria',
+    "Štěpánek Petr Ing.*",
+    "Štěpánková Vlasta Bc.*",
     "Witzling Guy",
     "Witzling Ron",
-    "Čahojová Alice",
-    "Segev Graicer Yakir",
-    "Rahamim Shaul",
-    "Peer Gal",
-    "Kolb Daniel",
-    "Klenková Jolana",
-    "García Marina*",
-    "Falťan Daniel Ing. arch.",
-    "Dahari Sharvid",
-    "Buch Eldad"
 )
 
 def add_better(a_set, an_item):
@@ -117,7 +119,8 @@ if __name__ == "__main__":
 
     # join apartment names (with cleanup)
     for k, s in bells_mailboxes["apartment"].items():
-        bells_mailboxes["apartment"][k] = "; ".join(s)
+        sorted_s = sorted(s)
+        bells_mailboxes["apartment"][k] = "; ".join(sorted_s)
 
     # print (json.dumps(bells_mailboxes, default=str, sort_keys=True, indent=2, ensure_ascii=False))
     with open(script_root + '/' + OUTPUT_JSON_FILE, 'w', encoding='UTF-8') as file_pointer:
