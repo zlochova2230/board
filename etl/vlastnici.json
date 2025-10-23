@@ -87,6 +87,25 @@
     "weight_per_owner": 0.009681830321688694
   },
   {
+    "door_label": "14105",
+    "katastr_jednotky": [
+      "2230/200",
+      "2230/4105"
+    ],
+    "katastr_pomer": [
+      "67515",
+      "5289358"
+    ],
+    "owner": "SJ Bejček Jan Ing. MBA a Bejčková Miroslava Ing.",
+    "owner_count": 2,
+    "part": 9013252.5,
+    "part_per_owner": 4506626.25,
+    "permanent_residence": false,
+    "primarni_jednotka": "2230/4105",
+    "weight": 0.012764309014439939,
+    "weight_per_owner": 0.006382154507219969
+  },
+  {
     "door_label": "1434",
     "katastr_jednotky": [
       "2230/200",
@@ -161,6 +180,24 @@
     "primarni_jednotka": "2230/485",
     "weight": 0.012010427246218208,
     "weight_per_owner": 0.012010427246218208
+  },
+  {
+    "door_label": "D100",
+    "katastr_jednotky": [
+      "2230/100"
+    ],
+    "katastr_pomer": [
+      "11025",
+      "6630322"
+    ],
+    "owner": "Cón Ondřej",
+    "owner_count": 1,
+    "part": 1174162.5,
+    "part_per_owner": 1174162.5,
+    "permanent_residence": false,
+    "primarni_jednotka": "2230/100",
+    "weight": 0.0016628151694593415,
+    "weight_per_owner": 0.0016628151694593415
   },
   {
     "door_label": "14132",
@@ -316,25 +353,6 @@
     "weight_per_owner": 0.012160265952881237
   },
   {
-    "door_label": "14105",
-    "katastr_jednotky": [
-      "2230/200",
-      "2230/4105"
-    ],
-    "katastr_pomer": [
-      "67515",
-      "5289358"
-    ],
-    "owner": "Gani Mayan  MBA",
-    "owner_count": 1,
-    "part": 9013252.5,
-    "part_per_owner": 9013252.5,
-    "permanent_residence": false,
-    "primarni_jednotka": "2230/4105",
-    "weight": 0.012764309014439939,
-    "weight_per_owner": 0.012764309014439939
-  },
-  {
     "door_label": "14151",
     "katastr_jednotky": [
       "2230/100",
@@ -411,25 +429,6 @@
     "primarni_jednotka": "2230/4131",
     "weight": 0.015309211226845393,
     "weight_per_owner": 0.015309211226845393
-  },
-  {
-    "door_label": "D200",
-    "katastr_jednotky": [
-      "2230/100",
-      "2230/200"
-    ],
-    "katastr_pomer": [
-      "871498",
-      "235376431"
-    ],
-    "owner": "Horizon Modřany s.r.o.",
-    "owner_count": 1,
-    "part": 2614494.0,
-    "part_per_owner": 2614494.0,
-    "permanent_residence": false,
-    "primarni_jednotka": "2230/200",
-    "weight": 0.003702571223029548,
-    "weight_per_owner": 0.003702571223029548
   },
   {
     "door_label": "14101",
@@ -737,6 +736,25 @@
     "weight_per_owner": 0.009218405983902441
   },
   {
+    "door_label": "1441",
+    "katastr_jednotky": [
+      "2230/100",
+      "2230/441"
+    ],
+    "katastr_pomer": [
+      "91559",
+      "6630322"
+    ],
+    "owner": "Luhová Nikoleta Ing.",
+    "owner_count": 1,
+    "part": 9751033.5,
+    "part_per_owner": 9751033.5,
+    "permanent_residence": true,
+    "primarni_jednotka": "2230/441",
+    "weight": 0.013809133251748557,
+    "weight_per_owner": 0.013809133251748557
+  },
+  {
     "door_label": "14102",
     "katastr_jednotky": [
       "2230/200",
@@ -754,6 +772,25 @@
     "primarni_jednotka": "2230/4102",
     "weight": 0.016509375996103876,
     "weight_per_owner": 0.016509375996103876
+  },
+  {
+    "door_label": "14112",
+    "katastr_jednotky": [
+      "2230/100",
+      "2230/4112"
+    ],
+    "katastr_pomer": [
+      "52232",
+      "3315161"
+    ],
+    "owner": "Mareš Václav",
+    "owner_count": 1,
+    "part": 11125416.0,
+    "part_per_owner": 11125416.0,
+    "permanent_residence": false,
+    "primarni_jednotka": "2230/4112",
+    "weight": 0.015755494227882146,
+    "weight_per_owner": 0.015755494227882146
   },
   {
     "door_label": "1483",
@@ -851,23 +888,22 @@
     "weight_per_owner": 0.006904566625874279
   },
   {
-    "door_label": "1441",
+    "door_label": "D200",
     "katastr_jednotky": [
-      "2230/100",
-      "2230/441"
+      "2230/200"
     ],
     "katastr_pomer": [
-      "91559",
-      "6630322"
+      "10789",
+      "5289358"
     ],
-    "owner": "Ovečková Nikoleta Ing.",
+    "owner": "Neuberg Tomáš",
     "owner_count": 1,
-    "part": 9751033.5,
-    "part_per_owner": 9751033.5,
-    "permanent_residence": true,
-    "primarni_jednotka": "2230/441",
-    "weight": 0.013809133251748557,
-    "weight_per_owner": 0.013809133251748557
+    "part": 1440331.5,
+    "part_per_owner": 1440331.5,
+    "permanent_residence": false,
+    "primarni_jednotka": "2230/200",
+    "weight": 0.0020397560535702066,
+    "weight_per_owner": 0.0020397560535702066
   },
   {
     "door_label": "14104",
@@ -984,24 +1020,23 @@
     "weight_per_owner": 0.005643879654203781
   },
   {
-    "door_label": "14112",
+    "door_label": "1494",
     "katastr_jednotky": [
       "2230/100",
-      "2230/494",
-      "2230/4112"
+      "2230/494"
     ],
     "katastr_pomer": [
-      "90046",
+      "37814",
       "3315161"
     ],
     "owner": "Rahamim Shaul",
     "owner_count": 1,
-    "part": 19179798.0,
-    "part_per_owner": 19179798.0,
+    "part": 8054382.0,
+    "part_per_owner": 8054382.0,
     "permanent_residence": false,
-    "primarni_jednotka": "2230/4112",
-    "weight": 0.027161878412541654,
-    "weight_per_owner": 0.027161878412541654
+    "primarni_jednotka": "2230/494",
+    "weight": 0.011406384184659508,
+    "weight_per_owner": 0.011406384184659508
   },
   {
     "door_label": "1422",
@@ -1098,26 +1133,6 @@
     "primarni_jednotka": "2230/411",
     "weight": 0.014375090511929802,
     "weight_per_owner": 0.014375090511929802
-  },
-  {
-    "door_label": "14123",
-    "katastr_jednotky": [
-      "2230/100",
-      "2230/200",
-      "2230/4123"
-    ],
-    "katastr_pomer": [
-      "4851944",
-      "706129293"
-    ],
-    "owner": "Sedláková Vlasta Bc.",
-    "owner_count": 1,
-    "part": 4851944.0,
-    "part_per_owner": 4851944.0,
-    "permanent_residence": false,
-    "primarni_jednotka": "2230/4123",
-    "weight": 0.006871183575158664,
-    "weight_per_owner": 0.006871183575158664
   },
   {
     "door_label": "1455",
@@ -1330,6 +1345,26 @@
     "primarni_jednotka": "2230/4123",
     "weight": 0.013742367150317328,
     "weight_per_owner": 0.013742367150317328
+  },
+  {
+    "door_label": "14123",
+    "katastr_jednotky": [
+      "2230/100",
+      "2230/200",
+      "2230/4123"
+    ],
+    "katastr_pomer": [
+      "4851944",
+      "706129293"
+    ],
+    "owner": "Štěpánková Vlasta Bc.",
+    "owner_count": 1,
+    "part": 4851944.0,
+    "part_per_owner": 4851944.0,
+    "permanent_residence": true,
+    "primarni_jednotka": "2230/4123",
+    "weight": 0.006871183575158664,
+    "weight_per_owner": 0.006871183575158664
   },
   {
     "door_label": "14154",
